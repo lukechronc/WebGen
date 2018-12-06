@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Musical English with Lukas Chronc</title>
+</head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+	<div class="container" style="display: none;">
+  <h2>Musical English with Mr. L</h2>
+  <h3>Jeopardy</h3>
+</div>
+<div class="container">
+<h2>We Belong Together by Mariah Carey and I Gotta Feeling by The Black Eyed Peas are the most popular songs of which decade?</h2>
+	<button onclick="myFunction()" type="button" class="btn btn-danger">Show Answer</button>
+
+</div>
+
+<div class="container" id="myDIV" style="display: none;">
+	<h3>2000s</h3><a href="#" onclick="close_window();return false;" class="btn btn-primary" role="button">Main Menu</a>
+	
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<div class="container"><iframe width="560" height="315" src="https://www.youtube.com/embed/73tGe3JE5IU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
